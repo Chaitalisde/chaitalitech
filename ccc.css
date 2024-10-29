@@ -1,0 +1,32 @@
+/* Style for the notice container */
+.notice-container {
+    max-width: 270px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    float: right;
+    margin-right: 0px;
+  }
+  
+  /* Style for individual notices */
+  .notice {
+    background-color: #e01515;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .notice-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .notice-date {
+    font-size: 14px;
+    color: #92ef0fef;
+  }
+  
+  .notice-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }

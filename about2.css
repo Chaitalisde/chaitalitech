@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.about-us-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us-intro,
+.about-us-history,
+.about-us-mission {
+    color: #333;
+}
+
+.about-us-intro h2,
+.about-us-history h3,
+.about-us-mission h3 {
+    color: #007BFF;
+}
+
+.about-us-intro p,
+.about-us-history p,
+.about-us-mission p {
+    line-height: 1.6;
+    margin: 0;
+}

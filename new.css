@@ -1,0 +1,211 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+  }  
+  .container{
+    width: 150vmin;
+ 
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:70%;
+    left:38%;
+    background-size: 100% 100%;
+    overflow: auto;
+    border: 10px rgb(2, 83, 60);
+    border-radius: 8px;
+    box-shadow: 10px 50px 30px rgba(0, 0, 0, 0.3);
+
+  }
+  .wrapper{
+    width: 100%;
+    display: flex;
+ animation:slide 16s infinite;
+  }
+  @keyframes slide {
+    0% {transform: translateX(0);
+  }
+  25% {transform: translateX(0);
+  }
+  30%{transform: translateX(-1000);
+    
+  }
+  50% {transform: translateX(-1000);
+  }
+  55% {transform: translateX(-2000);
+ 
+  
+    
+  }
+  75% {transform: translateX(-2000);
+  }
+  80% {transform: translateX(-3000);
+  }  100% {transform: translateX(-3000);
+  }
+  }
+  img{
+    width: 100%;
+  }
+    
+  header {  
+    flex: auto;
+    background-color: #07443f;  
+    color: #ffffff;  
+    padding: 10px;  
+    text-align: left;  
+  }  
+  
+    
+  .logo {  
+    margin: 20px;  
+    color:rgba(208, 255, 132, 0.586);
+    
+  }  
+  .logo h1 span{
+    font-size: 50;
+    margin-right: 50px;
+    padding-top: 50px;
+  }
+    
+  nav ul {  
+    list-style: none;
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content:right; 
+    /* float: right;  */
+  }  
+    
+  nav li {  
+    
+    margin-right: 50px;  
+  }  
+    
+  nav a {  
+    color: #fff;  
+    text-decoration: none;  
+  }  
+    
+  nav a:hover {  
+    color: #ccc;  
+  }  
+    
+  .hero {  
+    background-image: url('hero_image.jpg');  
+    background-size: cover;  
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    color: #fff;  
+  }  
+  
+    
+    
+    
+  .hero h1 {  
+    font-size: 48px;  
+  }  
+    
+  .hero button {  
+    background-color: #333;  
+    color: #fff;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 18px;  
+    cursor: pointer; 
+    position: relative;
+    top: 220px;
+    right: 110px; 
+    
+  }  
+    
+  .hero button:hover {  
+    background-color: #444;  
+  }  
+    
+  .features {
+    padding: 50px;
+    float: left;
+}
+.features section {
+    width: 50%;
+    float: left;
+}
+    
+    
+  .features ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;
+  
+  }  
+    
+  .features li {  
+    margin-bottom: 20px;  
+  }  
+    
+  .features i {  
+    font-size: 24px;  
+    margin-right: 10px;  
+  }  
+    
+  .features h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+  }
+    
+  footer {  
+    background-color: #0c0306;  
+    color: #fff;  
+    padding: 10px;  
+    text-align: center;  
+    clear: both;  
+  }.notice-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .fa{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 40px;
+    color:white;
+    text-align: center;
+  }
+  /* Style for the notice container */
+.notice-container {
+  max-width: 270px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  float: right;
+  margin-right: 0px;
+  top: -50px;
+  right: -110px;
+}
+
+
+.notice {
+  background-color: #e01515;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.notice-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.notice-date {
+  font-size: 14px;
+  color: #92ef0fef;
+}
+
+.notice-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
